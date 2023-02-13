@@ -17,7 +17,7 @@ module.exports = {
   },
   viteFinal: (config, {configType}) => {
     if(configType === "PRODUCTION"){
-      config.base = '/universo-ui'
+      config.base = '/design-system-test'
     }
 
     return config
