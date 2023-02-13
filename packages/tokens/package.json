@@ -1,5 +1,5 @@
 {
-  "name": "@universo-ui/tokens",
+  "name": "@design-system-test/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@universo-ui/ts-config": "*",
-    "@universo-ui/eslint-config": "*",
+    "@design-system-test/ts-config": "*",
+    "@design-system-test/eslint-config": "*",
     "tsup": "^6.6.0",
     "typescript": "^4.9.5"
   }

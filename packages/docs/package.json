@@ -1,5 +1,5 @@
 {
-  "name": "@universo-ui/docs",
+  "name": "@design-system-test/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -27,10 +27,10 @@
     "vite": "^4.1.1"
   },
   "dependencies": {
-    "@universo-ui/eslint-config": "*",
-    "@universo-ui/react": "*",
-    "@universo-ui/tokens": "*",
-    "@universo-ui/ts-config": "*",
+    "@design-system-test/eslint-config": "*",
+    "@design-system-test/react": "*",
+    "@design-system-test/tokens": "*",
+    "@design-system-test/ts-config": "*",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -1,9 +1,9 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Button, ButtonProps } from '@design-system-test/react'
+import { Box, BoxProps } from '@design-system-test/react'
 
 export default {
-  title: 'Form/Button',
-  component: Button,
+  title: 'Surfaces/Box',
+  component: Box,
 
   args: {
     children: 'Enviar'

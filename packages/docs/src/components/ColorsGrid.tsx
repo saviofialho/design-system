@@ -1,4 +1,4 @@
-import { colors } from '@universo-ui/tokens'
+import { colors } from '@design-system-test/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {
