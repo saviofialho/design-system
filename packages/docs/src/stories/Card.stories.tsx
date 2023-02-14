@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import {Box, Button, Card, CardProps, Heading, Text, TextInput} from '@design-system-test/react'
+import {Box, Button, Card, CardProps, Heading, Text, TextInput} from '@design-system-test-sf/react'
 
 export default {
   title: 'Components/Card',
