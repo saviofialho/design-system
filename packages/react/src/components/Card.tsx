@@ -1,13 +1,13 @@
 import { ComponentProps, ElementType } from "react"
 import { styled } from "../styles"
 
-export const Box = styled('div', {
+export const Card = styled('div', {
   padding: '$4',
-  borderRadius: '$md',
   backgroundColor: '$white100',
   border: 'none',
+  width: '400px'
 })
 
-export interface BoxProps extends ComponentProps<typeof Box> {
+export interface CardProps extends ComponentProps<typeof Card> {
   as?: ElementType
 }
