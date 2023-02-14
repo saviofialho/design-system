@@ -1,5 +1,5 @@
 {
-  "name": "@design-system-test/react",
+  "name": "@design-system-test-sf/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@design-system-test/eslint-config": "*",
-    "@design-system-test/tokens": "*",
-    "@design-system-test/ts-config": "*",
+    "@design-system-test-sf/eslint-config": "*",
+    "@design-system-test-sf/tokens": "*",
+    "@design-system-test-sf/ts-config": "*",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "react": "^18.2.0",

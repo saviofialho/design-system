@@ -1,5 +1,5 @@
 {
-  "name": "@design-system-test/eslint-config",
+  "name": "@design-system-test-sf/eslint-config",
   "version": "2.0.0",
   "license": "MIT",
   "private": true,

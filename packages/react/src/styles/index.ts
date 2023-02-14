@@ -1,5 +1,5 @@
 import { createStitches, defaultThemeMap } from "@stitches/react";
-import { colors, fonts, fontSizes, fontWeights, lineHeights, radii, space } from "@design-system-test/tokens";
+import { colors, fonts, fontSizes, fontWeights, lineHeights, radii, space } from "@design-system-test-sf/tokens";
 
 export const {
   styled,
