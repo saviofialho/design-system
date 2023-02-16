@@ -1,8 +1,42 @@
 import { Meta } from '@storybook/addon-docs'
+import vite from '../static/vite-react.png'
+import appImg from '../static/app.png'
+import mainImg from '../static/main.png'
+import exampleImg from '../static/example.png'
+import pageExample from '../static/pageExample.png'
 
 <Meta title="Home" />
 
-# Design System Test
+# Design System SF
+---
+## Utilização dos componentes
+---
+- Os componentes devem ser utilizados em um projecto React, portanto deve-se primeiro iniciar um novo projecto (caso não haja um projecto já criado).
+Existem diversas maneiras de fazermos isto. A mais indicada atualmente é através do Vite, com o comando:
+**npm create vite@latest**. A seguir seguimos o prompt: nomear o projecto, escolher a framework (React) e definirmos se será um projecto JavaScript
+ou TypeScript (para uso dos componentes esta escolha é indiferente).
+- Com o projecto instalado, abrimos a pasta no VSCode e corremos dois comandos: **npm install** e depois **npm run dev**.
+- Se tudo estiver corrido como esperado, podemos abrir o browser na porta indicada e veremos a página default da aplicação:
+---
+<img src={vite} />
+---
+- Agora, podemos apagar tudo o que não formos utilizar na pasta src: ficheiros de estilo (se for o caso) e assets. O importante é deixarmos os ficheiros App.tsx,
+main.tsx. No ficheiro App.tsx podemos apagar também todos elementos da página default e no main.tsx as importações que não formos utilizar. No fim os ficheiros estarão assim:
+---
+<img src={appImg} />
+---
+<img src={mainImg} />
+---
+- Agora para utilizarmos nosso primeiro componente do Design System, devemos instalar duas dependências na raiz do projecto: **npm i @design-system-test-sf/tokens** e **npm i @design-system-test-sf/react**
+- Com as dependências instaladas, podemos importar o componente que quisermos dentro da aplicação. Para efeitos de exemplo, importei o componente Button e a cor verde que definimos nos nossos tokens,
+dentro do próprio App.tsx e os utilizei desta maneira:
+---
+<img src={exampleImg} />
+---
+- Podemos ver o Button na versão 'default' do Design System, e o Button na versão 'secondary'. Além do texto com a cor verde que definimos nos tokens:
+--- 
+<img src={pageExample} />
+---
 
-Design System SF test
+
 
