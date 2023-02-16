@@ -1,0 +1,2 @@
+import{A as r}from"./index-d1c37d92.js";import"./index-39d17dc8.js";import"./es.object.get-own-property-descriptor-037fa860.js";import"./index-f97499ea.js";import"./jsx-runtime-310bfdac.js";const m={title:"Data display/Avatar",component:r,args:{src:"https://github.com/dcramer.png",alt:"David Cramer"}},c={},p={args:{src:void 0}},e=["Primary","WithFallback"];export{c as Primary,p as WithFallback,e as __namedExportsOrder,m as default};
+//# sourceMappingURL=Avatar.stories-70cda03d.js.map
